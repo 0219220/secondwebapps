@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+
+
+
+    <title >Guadalajaras Best Restaurants</title>
+</head>
+<body class="body">    
+
+  <div class="container">
+  <div class="row">
+<!-- this row is only for the top part of the webpage where the title goes, for example-->
+<div class="col-sm-3 col-md-3 col-lg-3"></div><!--left side-->
+<div class="col-sm-6 col-md-6 col-lg-6"><!--middle-->
+    <h1 class="title">Guadalajara Fine Dining</h1>
+</div>
+<div class="col-sm-3 col-md-3 col-lg-3"></div><!--right side-->
+
+  </div>
+
+  
+    <div class="row" ><div> <!--this row is the rest of the webpage, where we actually have the blog.-->
+    
+        <div class="col-sm-0 col-md-1 col-lg-1">   
+        </div><!--left side-->
+
+        
+        <div class="col-sm-12 col-md-10 col-lg-10" ><!--middle-->
+            <div class="middlerow" style="height: 100vh; width:100%;">
+                <div class="entryr">
+                  <form id="blogpost-form" method="post" action="/secondprojectwebapps/index.html">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="RestaurantName"  placeholder="Restaurant name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        </div>
+
+                        <div class="input-group" style="width: 100%;">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><span class="entry1">Restaurant Review</span></span>
+                            </div>
+                            <textarea class="form-control" id="Restaurantreview" aria-label="With textarea" placeholder="Write a review"></textarea>
+                          
+
+                        <button type="button" id="PostB" class="btn btn-info"> Post</button>
+                      </form>
+                      </div>
+
+
+
+                    </div>
+                    <div id ="fullreview" style="background-color: rgba(238, 238, 238, 1); border-radius: 5px; padding: 10px;" > <!--fullreview is how we can identify the whole review-->
+                       
+                        <div type="entry" id="rname" class="reviewpost">
+                    
+                </div>
+                <div type="entry" id="rreview" class="entry1">
+                
+                </div><!--blog entries-->
+                <button type="button" id="EditB" class="btn btn-info" > Edit</button>
+            </div>
+            
+            </div>
+        </div>
+
+        <div class="col-sm-0 col-md-1 col-lg-1">     
+        </div><!--right side-->
+    
+        
+    </div></div><!--row div-->
+
+    </div><!--container div-->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="server.js"></script>
+</body>
+</html>
+
+
+
+
+</body>
+</html>

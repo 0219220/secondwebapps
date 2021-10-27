@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+    color: rgb(228, 153, 83);
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+body{
+    background: url(/secondprojectwebapps/images/shop-g78735c04c_1920.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      height: 100%;
+      
+   }
+   
+   .middlerow{
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(238, 238, 238, 0.9);
+    
+   }
+
+   .entry1{
+       color: magenta;
+       text-align: center;
+       padding:20px;
+       font-size: 19px;
+       margin-right: 100px;
+       font-family: 'Raleway', sans-serif;
+       font-weight: 700;
+   
+    }
+
+    .entryr{
+        text-align: right;
+        display: block;
+        width:fit-content;
+        padding-bottom: 30px;
+        margin:auto;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    #PostB{
+        text-align: center;
+        margin-right: 176px;
+        margin-top: 5px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+
+    #RestaurantName{
+        margin-left: 70px;
+        margin-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    .reviewpost{
+        text-align: left;
+        font-size: 25px;
+        color: rgb(228, 153, 83);
+        font-family: 'Raleway', monospace;
+       
+
+    }
